@@ -7,14 +7,14 @@ print(name,age,city)
 
 #25
 student_name="Darshit"
-roll_no="17"
+roll_no=17
 student_branch="cse"
 
 print(student_name,roll_no,student_branch)
 
 #26 Reassign
-marks="20"
-marks="25"
+marks=20
+marks=25
 
 print(marks)
 
@@ -24,7 +24,7 @@ _name,_age,_city="rahul",18,"patna"
 print(_name,_age,_city)
 
 #28 asign to three variables
-x=y=z="0"
+x=y=z=0
 
 print(x,y,z)
 
