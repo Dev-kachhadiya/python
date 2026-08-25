@@ -14,6 +14,17 @@ age=17
 
 print=(type(age))
 
+
+#type carsting is changing the type
+
+
 convert_to_string=str(age)
 
 print(convert_to_string,type(convert_to_string))
+
+
+a="john"
+b=5
+
+print(a*b)
+
