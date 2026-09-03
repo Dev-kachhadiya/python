@@ -47,7 +47,7 @@ print("Third-last character:", text[-3])
 print("First character using negative index:", text[-11])
 
 #task 6
-full_name = "Darsh Vaishnav"
+full_name = "Dev Kachhadiya"
 
 print("Full Name:", full_name)
 
