@@ -1,61 +1,61 @@
 
 
-# Q1
+# 1
 number = int(input("Enter a number: "))
 if number > 10:
     print("Greater than 10")
 
-# Q2
+# 2
 age = int(input("Enter age: "))
 if age >= 18:
     print("Adult")
 
-# Q3
+# 3
 number = int(input("Enter a number: "))
 if number > 0:
     print("Positive")
 
-# Q4
+# 4
 marks = int(input("Enter marks: "))
 if marks >= 40:
     print("Pass")
 
-# Q5
+# 5
 number = int(input("Enter a number: "))
 if number == 0:
     print("Zero")
 
 
 
-# Q6
+# 6
 number = int(input("Enter a number: "))
 if number > 0:
     print("Positive")
 else:
     print("Not positive")
 
-# Q7
+# 7
 age = int(input("Enter age: "))
 if age >= 18:
     print("Adult")
 else:
     print("Minor")
 
-# Q8
+# 8
 number = int(input("Enter a number: "))
 if number % 2 == 0:
     print("Even")
 else:
     print("Odd")
 
-# Q9
+# 9
 marks = int(input("Enter marks: "))
 if marks >= 40:
     print("Pass")
 else:
     print("Fail")
 
-# Q10
+# 10
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 if num1 > num2:
@@ -65,7 +65,7 @@ else:
 
 
 
-# Q11
+# 11
 marks = int(input("Enter marks: "))
 if marks >= 90:
     print("A")
@@ -78,7 +78,7 @@ elif marks >= 40:
 else:
     print("F")
 
-# Q12
+# 12
 number = int(input("Enter a number: "))
 if number > 0:
     print("Positive")
@@ -87,7 +87,7 @@ elif number < 0:
 else:
     print("Zero")
 
-# Q13
+# 13
 day = int(input("Enter day number: "))
 if day == 1:
     print("Monday")
@@ -102,7 +102,7 @@ elif day == 5:
 else:
     print("Other")
 
-# Q14
+# 14
 marks = int(input("Enter marks: "))
 if marks >= 90:
     print("Excellent")
@@ -113,7 +113,9 @@ elif marks >= 40:
 else:
     print("Fail")
 
-# Q15
+
+
+# 15
 number = int(input("Enter a number: "))
 if number == 1:
     print("1")
@@ -125,14 +127,13 @@ else:
     print("Other")
 
 
-
-# Q16
+# 16
 age = int(input("Enter age: "))
 if age >= 18:
     if age <= 60:
         print("Between 18 and 60")
 
-# Q17
+# 17
 marks = int(input("Enter marks: "))
 if marks >= 40:
     if marks >= 75:
@@ -142,7 +143,7 @@ if marks >= 40:
 else:
     print("Failed")
 
-# Q18
+# 18
 number = int(input("Enter a number: "))
 if number > 0:
     if number > 100:
@@ -150,7 +151,7 @@ if number > 0:
     else:
         print("Positive but not greater than 100")
 
-# Q19
+# 19
 age = int(input("Enter age: "))
 if age >= 18:
     if age >= 60:
@@ -160,7 +161,7 @@ if age >= 18:
 else:
     print("Minor")
 
-# Q20
+# 20
 number = int(input("Enter a number: "))
 if number != 0:
     if number > 0:
@@ -172,30 +173,30 @@ else:
 
 
 
-# Q21
+# 21
 age = int(input("Enter age: "))
 marks = int(input("Enter marks: "))
 if age >= 18 and marks >= 40:
     print("Eligible")
 
-# Q22
+# 22
 number = int(input("Enter a number: "))
 if number < 10 or number > 100:
     print("Special")
 
-# Q23
+# 23
 age = int(input("Enter age: "))
 has_id = bool(input("Has ID? (leave blank for False, anything for True): "))
 if age >= 18 and has_id is True:
     print("Allowed")
 
-# Q24
+# 24
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 if num1 > 10 and num2 > 10:
     print("Both are greater than 10")
 
-# Q25
+# 25
 number = int(input("Enter a number: "))
 if number < 0 or number > 100:
     print("Number is out of the 0-100 range")
@@ -203,29 +204,29 @@ if number < 0 or number > 100:
 
 
 
-# Q26
+# 26
 is_closed = False
 if not is_closed:
     print("Open")
 
-# Q27
+# 27
 number = int(input("Enter a number: "))
 if number >= 10 and number <= 50:
     print("Number is between 10 and 50")
 
-# Q28
+# 28
 number = int(input("Enter a number: "))
 if number < 10 or number > 50:
     print("Number is outside the range 10 to 50")
 
-# Q29
+# 29
 is_student = True
 has_id = True
 has_ticket = True
 if is_student and has_id and has_ticket:
     print("Allowed")
 
-# Q30
+# 30
 age = int(input("Enter age: "))
 marks = int(input("Enter marks: "))
 has_id = True  # example value; replace with actual input logic as needed
