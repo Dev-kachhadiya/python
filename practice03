@@ -1,18 +1,18 @@
-Age=20
-_age=17.5
-bollean=True
-branch="cse"
-result=None
+#Age=20
+#_age=17.5
+#bollean=True
+#branch="cse"
+#result=None
 
-print(type(Age))
-print(type(_age))
-print(type(bollean))
-print(type(branch))
-print(type(result))
+#print(type(Age))
+#print(type(_age))
+#print(type(bollean))
+#print(type(branch))
+#print(type(result))
 
-age=17
+#age=17
 
-print=(type(age))
+#print=(type(age))
 
 
 #type carsting is changing the type
@@ -24,10 +24,42 @@ print=(type(age))
 
 
 #a=john
-b=5
+#b=5
 
 #print(a * b)
 
+##########################################  09//09//2026 ##########################################
+
+#print("""we're \n in kalol""")
+
+###IMPORTANT  FOR PROBLEM SOLVING FOR LOGIN BUILDING
+
+#num=int(input("Enter a 3 digit number"))
+
+#a=(num%10)
+#num=(num//10)
+#b=(num%10)
+#num=(num//10)
 
 
-print("""we're \n in kalol""")
+#a=print(a+b+num)
+
+number1=int(input("Enter First Number:"))
+
+number2=int(input("Enter Second Number:"))
+
+for i in range (number1,number2+1):
+
+    if(i%2 == 0):
+        print(f"{i} is even number")
+
+
+for i in range (1,15):
+
+    if(i%2 == 1):
+        print(f"{i} is odd number",end=" ")
+
+
+
+
+        

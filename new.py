@@ -54,7 +54,7 @@
     #print("you are not an adult")
 
 #gmail="devkachhadiya11@gmail.com"
-p#assword=12345
+#password=12345
 
 #if gmail=="devkachhadiya11@gmail.com":
  #   if password==12345:
