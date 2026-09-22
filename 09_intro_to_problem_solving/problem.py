@@ -1,4 +1,5 @@
 #Q1
+
 num1=int(input("Enter a number:"))
 
 if num1 > 0:
@@ -10,6 +11,8 @@ elif num1 == 0:
 
 else:
     print("Not a number")
+
+
 #Q2
 
 num2=int(input("Enter a Number:"))

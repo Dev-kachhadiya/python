@@ -44,22 +44,20 @@
 
 #a=print(a+b+num)
 
-number1=int(input("Enter First Number:"))
+# number1=int(input("Enter First Number:"))
 
-number2=int(input("Enter Second Number:"))
+# number2=int(input("Enter Second Number:"))
 
-for i in range (number1,number2+1):
+# for i in range (number1,number2+1):
 
-    if(i%2 == 0):
-        print(f"{i} is even number")
-
-
-for i in range (1,15):
-
-    if(i%2 == 1):
-        print(f"{i} is odd number",end=" ")
+#     if(i%2 == 0):
+#         print(f"{i} is even number")
 
 
+# for i in range (1,15):
+
+#     if(i%2 == 1):
+#         print(f"{i} is odd number",end=" ")
 
 
         
