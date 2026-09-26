@@ -55,8 +55,29 @@
 # sum=num1+num2
 # print(sum)
 
-num=int(input("Enter a number:"))
-if num>0:
-    print(num*num)
-elif num<0:
-    print(num)
+# num=int(input("Enter a number:"))
+# if num>0:
+#     print(num*num)
+# elif num<0:
+#     print(num)
+
+
+# for i in range(5):
+
+#     for j in range(5):
+#         print("*", end=" ")
+#     print()
+
+n=int(input("Enter a Number:"))
+
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if j==1 or j==n or i==n:
+            print("*",end="")
+        else:
+            print(end=" ")
+    
+
+    print()
+
+
